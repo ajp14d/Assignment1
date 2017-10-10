@@ -1,1 +1,68 @@
-ECHO is on.
+
+(a) C:\Users\Abby Perry\source\repos\Assignment1>git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   docs/status.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .vs/
+        Assign2-Git.sln
+        Assign2-Git.vcxproj
+        Assign2-Git.vcxproj.filters
+        Debug/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Abby Perry\source\repos\Assignment1>git push
+Everything up-to-date
+
+(b) 6 commits have been done, I used git log to find this information 
+
+(c)The file .gitignore was last modified using the command: ls -l .gitignore 
+
+(d) The IDs of the commits used the merge the changes from the branch "development" to the branch "master" are:
+	-commit 1cc7d6674cce7e5339598e87e07e329c45814408
+	-commit cb30d72a3d94c108f393c163a35c1cc9bf18ffca
+	-commit a46d9263dfca5ecc9a803da298fcb3b2e229131f
+	-commit e7831f68fb63e2047309691247cec975d9642c22
+	-commit 1e1068081b6fc6139f4d93ce6f86722ed31f2f5b
+
+(e) Two reasons for using branches in a Git repository are: 
+	1. To develop features isolated from each other 
+	2. to create, list, rename, and delete branches 
+
+(f) The difference between git log and git status is:
+	-git status displays the working tree status 
+	-git log displays the commit logs 
+
+(g) To see the commits where "weapon.h" was one of the committed files use
+	-git log Weapon.h
+	
+(h) To see the commits whose commit message contains the word "file" use 
+	-git log --grep=file
+
+(i) I. Inheritance enables new objects to take on the properties of existing objects 
+    II. Polymorphism refers to the ability to process objects differently depending on their data type or class 
+    III. Encapsulation is used to refer to one of two related but distinct notions, and sometimes the 
+	combination there of
+
+
+
+
+
+
+
+
+
+
+
+
+
+
