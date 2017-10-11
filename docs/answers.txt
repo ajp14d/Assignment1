@@ -53,7 +53,7 @@ Everything up-to-date
     III. Encapsulation is used to refer to one of two related but distinct notions, and sometimes the 
 	combination there of
 
-
+7) Polymorphism because it is an abstract class that can handle different classes of weapons
 
 
 
